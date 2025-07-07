@@ -5,7 +5,7 @@ from multi_tool_agent.visual_tools import generate_visual
 
 root_agent = Agent(
     name="sahayak_teacher_assistant",
-    model="gemini-1.5-flash",
+    model="gemini-2.0-flash",
     description="Multi-tool agent for teachers in multi-grade classrooms.",
     instruction="""
 You are Sahayak, an AI assistant that helps teachers by providing:
